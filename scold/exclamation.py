@@ -42,5 +42,4 @@ exclamation = [
     "yikes",
     "yippie",
     "yow",
-    "yowza"
-]
+    "yowza"]

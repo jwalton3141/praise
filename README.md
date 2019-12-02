@@ -1,37 +1,28 @@
-# praise
+# scold
 
-> Praise it
-
-[![Build Status](https://travis-ci.org/funtion/praise.svg?branch=master)](https://travis-ci.org/funtion/praise)
-[![Coverage](https://codecov.io/github/funtion/praise/coverage.svg?branch=master)](https://codecov.io/gh/funtion/praise)
-
-
+Like [praise](https://github.com/funtion/praise), but when you (or your colleagues)
+have been bad.
 
 ## Installation
 
 ```
-pip install praise
+pip install scold
 ```
 
 ## Usage
 
 ```python
-from praise import praise
+from scold import scold
 
-praise()
+scold()
 
-praise("${Exclamation}! ${EXCLAMATION}!-${EXCLAMATION}! This is just ${adjective}!")
+scold("${Exclamation}! ${EXCLAMATION}!-${EXCLAMATION}! This is just ${adjective}!")
 ```
-
-
 
 ## Licence
 
 [MIT](https://opensource.org/licenses/MIT)
 
-
-
 ## Special Thanks
 
-The praise in R language: https://github.com/rladies/praise
-
+Forked from https://github.com/funtion/praise
